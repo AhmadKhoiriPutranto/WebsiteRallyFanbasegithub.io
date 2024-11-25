@@ -1,0 +1,736 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+/* NAVBAR  */
+
+nav {
+    padding: 20px 100px;
+    background-color: #F5F5DC;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nav_title {
+    font-weight: bold;
+  }
+  
+  .nav_title span {
+    color: orangered;
+  }
+  
+  .nav_links {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    align-items: center;
+  }
+  
+  .link a {
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+  
+  .link a:hover {
+    color: white;
+    background-color: orangered;
+  }
+    /* Container Marketing */
+
+    .container {
+        padding: 50px 100px;
+        margin: auto;;
+        display: flex;
+    }
+  
+    /* Login Site */
+    /* Container Styling */
+    .login-container {
+        width: 300px; /* Adjust width as needed */
+        padding: 50px;
+        border-radius: 50px;
+        background-color: #fff;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        text-align: center;
+    }
+/* Header Styling */
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #333333;
+    font-size: 24px;
+}
+
+/* Form Group Styling */
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+    display: flex;
+}
+
+/* Button Styling */
+.btn {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Additional Styling */
+.login-container form {
+    margin-top: 20px;
+}
+
+.login-container p {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #666666;
+}
+
+.login-container a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.login-container a:hover {
+    text-decoration: underline;
+}
+
+    /* Weather Site */
+    /* Album and Card Styling */
+.album {
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.col {
+    flex: 1;
+    min-width: 280px;
+    max-width: 320px;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6; /* Light border */
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.card-body {
+    padding: 20px;
+    text-align: center;
+}
+
+.card-text {
+    font-size: 14px;
+    color: #6c757d; /* Muted text */
+    margin-bottom: 15px;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    padding: 8px 15px;
+    font-size: 14px;
+    border: 1px solid #6c757d;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #6c757d;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #007bff; /* Blue on hover */
+    color: #ffffff;
+    border-color: #007bff;
+}
+
+.text-body-secondary {
+    display: block;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #adb5bd;
+}
+
+
+    /* hero Section */
+  .hero_section {
+      display: flex;
+      padding-top: 100px;
+      padding-right: 100px;
+      padding-left: 100px;
+      height: 90vh;
+      justify-content: space-between;
+      background-color: whitesmoke;
+    }
+    
+    .hero_main {
+      margin-top: 50px;
+      width: 50%;
+      display: flex;
+    }
+    
+    .hero_title {
+      font-size: 60px;
+      font-weight: 800;
+      padding: flex;
+    }
+    
+    .hero_title span {
+      color: orangered;
+    }
+    
+    .hero_p {
+      margin-top: 50px;
+      font-size: 16px;
+      font-weight: 400;
+      padding: flex;
+    }
+  
+    .button_container {
+      margin-top: 20px;
+      gap: 5px;
+      display: flex;
+    }
+    
+    .btn {
+      padding: 10px 20px;
+      font-size: 15px;
+      font-weight: 500;
+      color: white;
+      cursor: pointer;
+      border: 1px solid transparent;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .btn_shop {
+      background-color: orangered;
+    }
+    
+    .btn_contact {
+      background-color: black;
+    }
+    
+    .hero_btn:hover {
+      background-color: white;
+    }
+    
+    .btn_shop:hover {
+      background-color: white;
+      color: orangered;
+      border: 1px solid orangered;
+    }
+  
+    .hero_background {
+      height: fit-content;
+      width: 50%;    
+      margin: 0;
+      padding: 0;
+      background-image: url(""); /* Replace with the path to your image */
+      background-size: cover; /* Ensures the image covers the whole viewport */
+      background-repeat: no-repeat; /* Prevents the image from repeating */
+      background-position: center; /* Centers the image */
+      background-attachment: fixed; /* Keeps the background fixed when scrolling */
+      height: 100vh; /* Ensures the body has full viewport height */
+    }
+  
+  
+  /* Webtoon Section */
+  
+  .webtoon_section {
+      padding: 0px 100px;
+  }
+  
+  .webtoon_text {
+      text-align: center;
+      display: flex;
+  }
+  
+  .webtoon_title {
+      font-size: 20px;
+      font-weight: 50;
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  
+  .webtoon_p {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 50px;
+      font-size: 15px;
+      font-weight: 500;
+      text-align: center;
+  }
+  
+  .webtoon_groups {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+  }
+  
+  .webtoon_p {
+    display: flex;
+  }
+  
+  /* Card Container */
+  
+  .card_container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Kolom menyesuaikan ukuran layar */
+      gap: 20px; /* Jarak antar kartu */
+      justify-items: center; /* Memusatkan kartu secara horizontal */
+    }
+    
+    
+    .card {
+      width: 250px; /* Lebar tetap untuk kartu */
+      height: 450px; /* Tinggi tetap untuk kartu agar seragam */
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      text-align: center;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Opsional: bayangan untuk estetika */
+      padding: 20px;
+      border-radius: 10px; /* Opsional: membulatkan sudut */
+    }
+    
+    .card_img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+    
+    .card_groups {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-bottom: 50px;
+    }
+    
+    .services_cards {
+      text-align: center;
+      width: 350px;
+      margin-top: 50px;
+      padding: 15px;
+      padding-top: 50px;
+      border-radius: 10px;
+      border: 1px solid #dbdbdb;
+      transition: transform 0.3s ease-in-out;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+    }
+    
+    .services_cards:hover {
+      transform: scale(1.02);
+    }
+    
+    .card_img {
+      width: 50px;
+      margin-bottom: 20px;
+    }
+    
+    .card_title {
+      color: orangered;
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    
+    /* Card Groups 1*/
+    
+    .card_groups1 {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-bottom: 50px;
+    }
+    
+    .services_cards {
+      text-align: center;
+      width: 350px;
+      margin-top: 50px;
+      padding: 15px;
+      padding-top: 50px;
+      border-radius: 10px;
+      border: 1px solid #dbdbdb;
+      transition: transform 0.3s ease-in-out;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+    }
+    
+    .services_cards:hover {
+      transform: scale(1.02);
+    }
+    
+    .card_img {
+      width: 50px;
+      margin-bottom: 20px;
+    }
+    
+    .card_title {
+      color: orangered;
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    
+    /* Card Groups 2*/
+    .card_groups2 {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-bottom: 50px;
+    }
+    
+    .services_cards {
+      text-align: center;
+      width: 350px;
+      margin-top: 50px;
+      padding: 15px;
+      padding-top: 50px;
+      border-radius: 10px;
+      border: 1px solid #dbdbdb;
+      transition: transform 0.3s ease-in-out;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+    }
+    
+    .services_cards:hover {
+      transform: scale(1.02);
+    }
+    
+    .card_img {
+      width: 50px;
+      margin-bottom: 20px;
+    }
+    
+    .card_title {
+      color: orangered;
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+  
+    /* Service Section */
+  
+  .services_section {
+      margin-top: 70px;
+      background-color: white;
+      text-align: center;
+      margin-bottom: 100px;
+    }
+    
+    .services_text {
+      text-align: center;
+    }
+    
+    .services_title {
+      font-size: 30px;
+      font-weight: 800;
+      margin-bottom: 10px;
+    }
+  
+    /* Image Container */
+  
+  .img_background_container {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%; /* Membuat wadah sesuai dengan gambar */
+      margin-bottom: 75px;
+    }
+    
+    .img_background {
+      width: 100%;
+      height: 500px;
+      object-fit: cover;
+      object-position: top;
+      display: flex;
+    }
+    
+    .overlay_text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #000; /* Warna teks */
+      font-size: 120px; /* Ukuran teks */
+      font-weight: bold; /* Ketebalan teks */
+      text-align: center; /* Pusatkan teks */
+    }
+    
+    /* Anime list selection */
+    .anime_section {
+      padding: 0px 100px;
+    }
+    
+    .anime_text {
+      text-align: center;
+    }
+    
+    .anime_title {
+      font-size: 30px;
+      font-weight: 800;
+      margin-bottom: 10px;
+    }
+    
+    .anime_groups {
+      margin-top: 75px;
+    }
+    
+    .anime_cards {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 100px;
+      width: 100%;
+    }
+    
+    .card_text {
+      width: 50%;
+      display: flexbox;
+    }
+    
+    .card_text h2 {
+      font-size: 30px;
+      font-weight: 500;
+      margin-bottom: 30px;
+    }
+    
+    .card_text p {
+      margin-bottom: 50px;
+      display: flexbox;
+    }
+    
+    .anime_cards img {
+      width: 30%;
+    }
+    
+    .btn_check {
+      background-color: black;
+    
+      color: white;
+    }
+    
+    .btn_check:hover {
+      background-color: white;
+      color: black;
+      border: 1px solid black;
+    }
+  
+  /* Card Groups 1*/
+  
+  .card_groups1 {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-bottom: 50px;
+    }
+    
+    .services_cards {
+      text-align: center;
+      width: 350px;
+      margin-top: 50px;
+      padding: 15px;
+      padding-top: 50px;
+      border-radius: 10px;
+      border: 1px solid #dbdbdb;
+      transition: transform 0.3s ease-in-out;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+    }
+    
+    .services_cards:hover {
+      transform: scale(1.02);
+    }
+    
+    .card_img {
+      width: 50px;
+      margin-bottom: 20px;
+    }
+    
+    .card_title {
+      color: orangered;
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    
+    /* Card Groups 2*/
+    .card_groups2 {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-bottom: 50px;
+    }
+    
+    .services_cards {
+      text-align: center;
+      width: 350px;
+      margin-top: 50px;
+      padding: 15px;
+      padding-top: 50px;
+      border-radius: 10px;
+      border: 1px solid #dbdbdb;
+      transition: transform 0.3s ease-in-out;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+    }
+    
+    .services_cards:hover {
+      transform: scale(1.02);
+    }
+    
+    .card_img {
+      width: 50px;
+      margin-bottom: 20px;
+    }
+    
+    .card_title {
+      color: orangered;
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+  
+    /* Carousel */
+  
+    .myCarousel {
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+  
+  /* HERO SECTION */
+  
+  .hero_section {
+      display: flex;
+      padding-top: 100px;
+      padding-right: 100px;
+      padding-left: 100px;
+      height: 90vh;
+      justify-content: space-between;
+      background-color: whitesmoke;
+    }
+    
+    .hero_main {
+      margin-top: 50px;
+      width: 50%;
+    }
+    
+    .hero_title {
+      font-size: 60px;
+      font-weight: 800;
+    }
+    
+    .hero_title span {
+      color: orangered;
+    }
+    
+    .hero_p {
+      margin-top: 50px;
+      font-size: 16px;
+      font-weight: 400;
+    }
+    
+    .button_container {
+      margin-top: 50px;
+      gap: 20px;
+      display: flex;
+    }
+    
+    .btn {
+      padding: 10px 20px;
+      font-size: 15px;
+      font-weight: 500;
+      color: white;
+      cursor: pointer;
+      border: 1px solid transparent;
+    }
+    
+    .btn_shop {
+      background-color: orangered;
+    }
+    
+    .btn_contact {
+      background-color: black;
+    }
+    
+    .hero_btn:hover {
+      background-color: white;
+    }
+    
+    .btn_shop:hover {
+      background-color: white;
+      color: orangered;
+      border: 1px solid orangered;
+    }
+    
+    .btn_contact:hover {
+      background-color: white;
+      color: black;
+      border: 1px solid black;
+    }
+    
+    .hero_img {
+      height: fit-content;
+      width: 40%;
+    }
+
+    /* Carousel */
+
+    .myCarousel {
+        display: flex;
+        width: fit-content;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+
+  
+  
+    footer {
+      text-align: center;
+      margin-top: 100px;
+      padding: 50px;
+      font-weight: 600;
+      color: white;
+      background-color: orangered;
+    }
+  
